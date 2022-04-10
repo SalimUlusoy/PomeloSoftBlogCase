@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PomeloSoftBlogCaseMVC", "PomeloSoftBlogCaseMVC\PomeloSoftBlogCaseMVC.csproj", "{BCE8D2AB-B495-4D75-A104-2585E31A7623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PomeloSoftBlogCaseWebAPI", "PomeloSoftBlogCaseWebAPI\PomeloSoftBlogCaseWebAPI.csproj", "{C5B2DF9F-0B47-4933-AE4C-CC3BFE1AFAC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE8D2AB-B495-4D75-A104-2585E31A7623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE8D2AB-B495-4D75-A104-2585E31A7623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE8D2AB-B495-4D75-A104-2585E31A7623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE8D2AB-B495-4D75-A104-2585E31A7623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B2DF9F-0B47-4933-AE4C-CC3BFE1AFAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B2DF9F-0B47-4933-AE4C-CC3BFE1AFAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B2DF9F-0B47-4933-AE4C-CC3BFE1AFAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B2DF9F-0B47-4933-AE4C-CC3BFE1AFAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B9979C2-9FC1-4D53-B4C7-68332C3234CF}
+	EndGlobalSection
+EndGlobal

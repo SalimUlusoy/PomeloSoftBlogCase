@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "Kayıt Sayfası";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<div class="sidenav">
+    <div class="login-main-text">
+        <h2>Pomelo Blog<br> Kayıt Sayfası</h2>
+        <p>Giriş veya Kayıt işlemlerinizi gerçekleştirebilirsiniz.</p>
+    </div>
+</div>
+<div class="main">
+    <div class="col-md-6 col-sm-12">
+        <div class="login-form" style="margin-top:50%;">
+            <form asp-action="Register">
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                    <label>User Name</label>
+                    <input type="text" name="userName" id="userName" class="form-control" placeholder="User Name">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-black">Register</button>
+                <button type="submit" name="Login" id="Login" class="btn btn-secondary" asp-area="" asp-controller="Security" asp-action="Login">Login</button>
+            </form>
+            <br />
+            <span style="color:red">@Html.Label((string)ViewBag.Name)</span>
+        </div>
+    </div>
+</div>
+
